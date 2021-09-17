@@ -1,14 +1,14 @@
 import React from "react";
+import { CssBaseline } from "@material-ui/core";
 
-import DisplayArea from "./DisplayArea";
-import InputArea from "./InputArea";
+import CharacterTable from "./components/CharacterTable";
 
 const App = () => {
   return (
-    <div className="game-maker">
-      <DisplayArea />
-      <InputArea />
-    </div>
+    <>
+      <CssBaseline />
+      <CharacterTable />
+    </>
   );
 };
 
